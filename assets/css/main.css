@@ -9857,27 +9857,9 @@ nav a span {
   font-family: "Raleway", sans-serif;
 }
 
-@media (min-width: 48em) {
-  .navbar li {
-    float: left;
-  }
-
-  .navbar li a {
-    padding: 20px 30px;
-  }
-
-  .navbar .navbar-nav {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-
-  .navbar .collapse {
-    display: none;
-  }
-}
 button {
   border-radius: 0px !important;
+  padding: 13px;
 }
 
 .wrapper {
