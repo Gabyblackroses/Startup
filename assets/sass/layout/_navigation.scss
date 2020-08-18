@@ -1,0 +1,24 @@
+nav a span{
+    font-size: 8px;
+    font-weight: 700;
+    font-family: $raleway;
+}
+
+@media (min-width: 48em) {
+    
+    .navbar li {
+        float: left;
+    }
+    .navbar li a {
+        padding: 20px 30px;
+    }
+    .navbar .navbar-nav {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .navbar .collapse {
+        display: none;
+    }
+}
+    

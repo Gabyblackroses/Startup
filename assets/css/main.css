@@ -9650,12 +9650,6 @@ h3 {
     border-color: #dee2e6;
   }
 }
-nav a span {
-  font-size: 8px;
-  font-weight: 700;
-  font-family: "Raleway", sans-serif;
-}
-
 .green {
   background-repeat: no-repeat;
   background-size: cover;
@@ -9840,6 +9834,23 @@ p {
   display: inline-block;
 }
 
+@media only screen and (max-width: 768px) {
+  .leo, .grafico {
+    display: block;
+    width: 100vw;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .rome {
+    display: block;
+    justify-content: space-evenly;
+  }
+
+  .leo {
+    padding: 0 30px;
+  }
+}
 button {
   border-radius: 0px !important;
 }
