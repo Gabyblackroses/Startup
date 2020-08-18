@@ -19,6 +19,22 @@ img {
     top: 60px;
 }
 
+//QUERIES
+@media only screen and(max-width: 768px) {
+    .green{
+        margin-top:300px;
+    }
+}
+
+@media only screen and(max-width: 992px) {
+    section .green{
+        margin-top:100px;
+}
+}
+
+
+
+
 .brown {
     position: relative;
 }
