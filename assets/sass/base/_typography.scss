@@ -46,9 +46,11 @@
   }
 
 
-.logo {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: inline-block;
-}
+  p{
+    font-family:$open-sans;
+    font-weight: $regular;
+    font-size: $x-small;
+    color:$raisin-black;
+    line-height: 1.5rem;
+  } 
+  

@@ -1,38 +1,102 @@
-.profile__personal-info{ 
-    flex-grow: 1;
-    h1,h2,h3{
-        float : left;
-        font-family: $raleway;
-        color:$black;
-        width: 45%;
-    }
-    img{
-        width: 300px;
-        height: 220px;
-        float: left;
-    }
 
-    p{
-        float: left;
-        font-family: $raleway;
-        color:$gray;
-    }
+nav a span{
+    font-size: 8px;
+    font-weight: 700;
+    font-family: $raleway;
 }
 
-.profile__precio {
+.green{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 50%;
 }
 
-.objeto-lista-padre {
+img {
+    width: 100%;
+}
+
+.red {
+    width: 50%;
+    line-height: 20pt;
+    position: absolute;
+    top: 60px;
+}
+
+.brown {
+    position: relative;
+}
+
+.rome {
+    margin: 10%;
+    text-orientation: center;
+}
+ 
+.grafico {
+    animation-name: opacity;
+    animation-duration: 7s;
+    animation-timing-function: cubic-bezier(2);
+    animation-iteration-count: infinite;
+    padding: 0%;
+}
+
+.leo {
+    align-content: left;
+    display: block;
+}
+
+@keyframes opacity{
+    0% {opacity: 0;}
+    50% {opacity: 2;}
+    100% {opacity: 1;}             
+}
+
+.nyc {
+    text-orientation: center;
+    justify-content: space-evenly;
+    margin-top:50px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: #ffffff
 }
 
-.cuore {
-    float: left;
+.profile__precio {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2{
+        margin-top:200px;
+        color:$white;
+    }
+    
 }
+
+.target {
+    color:$raisin-black;
+    font-family: $open-sans;
+    font-size: $x-small;
+    line-height: 2rem;
+}
+
+.profile__footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $raisin-black;
+    width:100%;
+    padding-top:20px;
+} 
+
+.superman {
+    justify-content: flex-start;
+    font-family: $raleway;
+    font-size:$x-small;
+    padding: 0 20px;
+}
+
+.batman {
+    justify-content: flex-end;
+    font-family: $raleway;
+    font-size:$x-small;
+    padding: 0 20px;
+}
+
+
