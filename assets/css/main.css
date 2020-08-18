@@ -9851,6 +9851,31 @@ p {
     padding: 0 30px;
   }
 }
+nav a span {
+  font-size: 8px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+@media (min-width: 48em) {
+  .navbar li {
+    float: left;
+  }
+
+  .navbar li a {
+    padding: 20px 30px;
+  }
+
+  .navbar .navbar-nav {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .navbar .collapse {
+    display: none;
+  }
+}
 button {
   border-radius: 0px !important;
 }
